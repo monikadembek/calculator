@@ -37,7 +37,7 @@ h2 {
 }
 
 .calculator {
-	margin: 0 auto;
+	margin: 1rem auto;
 	width: 25rem;
 	font-family: 'Roboto Condensed', 'Open Sans', sans-serif;
 	font-weight: normal;
