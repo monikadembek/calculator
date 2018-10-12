@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>Calculator</title>
+		<link rel="stylesheet" href="css/style.css">
+	</head>
+	<body>
+    <header>
+      <h1>Calculator</h1>
+      <h2>Build in JavaScript, uses decimal.js library to fix issues with multiplying float numbers</h2>  
+    </header>
+    
+    <div class="calculator">
+      <input type="text" name="display" class="calculator__display" value="0">  
+      <div class="calculator__buttons">
+        <button>7</button>
+        <button>8</button>
+        <button>9</button>
+        <button data-operator="divide">/</button>
+        <button>4</button>
+        <button>5</button>
+        <button>6</button>
+        <button data-operator="multiply">*</button>
+        <button>1</button>
+        <button>2</button>
+        <button>3</button>
+        <button data-operator="subtract">-</button>
+        <button>0</button>
+        <button data-dot=".">.</button>
+        <button data-clear="clear">C</button>
+        <button data-operator="add">+</button>
+        <button data-score="equals">=</button>
+      </div>
+    </div>
+    <script src="js/decimal.min.js"></script>
+		<script src="js/script.js"></script>
+	</body>
+</html>
