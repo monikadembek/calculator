@@ -17,6 +17,7 @@ body {
 
 header {
 	margin: 3rem 0;
+	padding: 1rem;
 	text-align: center;
 }
 
@@ -92,4 +93,10 @@ h2 {
 
 .calculator__buttons button.pressed {
 	background-color: #001433;	
+}
+
+@media (max-width: 768px) {
+	.calculator {
+		width: 90%;
+	}
 }
